@@ -1,2 +1,2 @@
 #!/bin/bash
-$ ls -l .vim | grep -c PATH
+find -mindepth 1 -type d | wc -l
